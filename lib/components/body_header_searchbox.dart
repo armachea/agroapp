@@ -14,7 +14,7 @@ class HeaderWithSearchBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(bottom: vDefaultPadding * 2.5),
+      margin: EdgeInsets.only(bottom: vDefaultPadding * 1.5),
       //It will cover 20% of total height
       height: size.height * 0.2,
       child: Stack(
@@ -71,7 +71,7 @@ class HeaderWithSearchBox extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(
-                    offset: Offset(0, 10),
+                    offset: Offset(0, 20),
                     blurRadius: 60,
                     color: vPrimaryColor.withOpacity(0.23),
                   )
