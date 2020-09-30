@@ -1,5 +1,7 @@
+import 'package:agro_app/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'body_featured_plant.dart';
 import 'body_header_searchbox.dart';
 import 'body_recommended_plant.dart';
 import 'body_title_more_btn.dart';
@@ -17,6 +19,8 @@ class BodyComponent extends StatelessWidget{
           TitleMoreBtn(title: "Recommended", onpress: (){}),
           RecommendedPlants(),
           TitleMoreBtn(title: "Featured Plants", onpress: (){}),
+          FeaturedPlants(),
+          SizedBox(height: vDefaultPadding),
 
         ],
 
